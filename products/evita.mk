@@ -12,6 +12,9 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/htc/evita/device.mk)
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_xhdpi
+
 # Device naming
 PRODUCT_DEVICE := evita
 PRODUCT_NAME := aokp_evita

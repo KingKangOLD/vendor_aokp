@@ -10,6 +10,9 @@ $(call inherit-product, vendor/aokp/configs/vzw.mk)
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/tuna
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/toro
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_xhdpi
+
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_toro
 PRODUCT_BRAND := google
