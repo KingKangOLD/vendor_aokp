@@ -7,5 +7,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hercules.mk \
     $(LOCAL_DIR)/maguro.mk \
     $(LOCAL_DIR)/quincyatt.mk \
+    $(LOCAL_DIR)/skyrocket.mk \
     $(LOCAL_DIR)/toro.mk \
     $(LOCAL_DIR)/toroplus.mk
