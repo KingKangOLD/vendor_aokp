@@ -80,7 +80,7 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 
 # device common prebuilts
 ifneq ($(DEVICE_COMMON),)
-    -include vendor/aokp/prebuilt/$(DEVICE_COMMON)/prebuilt.mk
+    -include vendor/aokp/prebuilt/$(OVERLAY_TARGET)/prebuilt.mk
 endif
 
 # device specific prebuilts
@@ -89,8 +89,8 @@ endif
 BOARD := $(subst pa_,,$(TARGET_PRODUCT))
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/$(DEVICE_COMMON).conf:system/etc/paranoid/properties.conf \
-    vendor/aokp/prebuilt/$(DEVICE_COMMON).conf:system/etc/paranoid/backup.conf
+    vendor/aokp/prebuilt/$(OVERLAY_TARGET).conf:system/etc/paranoid/properties.conf \
+    vendor/aokp/prebuilt/$(OVERLAY_TARGET).conf:system/etc/paranoid/backup.conf
 
 # Inherit common build.prop overrides
 -include vendor/aokp/configs/common_versions.mk
