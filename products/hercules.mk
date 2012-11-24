@@ -10,9 +10,6 @@ $(call inherit-product, vendor/aokp/configs/gsm.mk)
 # skyrocket overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/hercules
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
-
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_hercules
 PRODUCT_BRAND := Samsung

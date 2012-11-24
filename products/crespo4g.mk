@@ -6,9 +6,6 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/crespo4g
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
-
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_crespo4g
 PRODUCT_BRAND := google

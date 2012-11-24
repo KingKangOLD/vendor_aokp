@@ -6,9 +6,6 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/toroplus
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xhdpi
-
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_toroplus
 PRODUCT_BRAND := Google

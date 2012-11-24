@@ -12,9 +12,6 @@ $(call inherit-product, vendor/aokp/configs/vzw.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/d2vzw
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xhdpi
-
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_d2vzw
 PRODUCT_BRAND := Samsung

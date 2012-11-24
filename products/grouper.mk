@@ -6,9 +6,6 @@ $(call inherit-product, vendor/aokp/configs/common_tablet_small.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/grouper
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
-
 # Setup device specific product configuration.
 PRODUCT_NAME := aokp_grouper
 PRODUCT_BRAND := google
