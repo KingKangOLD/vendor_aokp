@@ -79,7 +79,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # device common prebuilts
-ifneq ($(OVERLAY_TARGET),)
+ifneq ($(DEVICE_COMMON),)
     -include vendor/aokp/prebuilt/$(OVERLAY_TARGET)/prebuilt.mk
 endif
 
